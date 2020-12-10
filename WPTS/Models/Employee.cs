@@ -16,7 +16,7 @@ namespace WPTS.Models
         [Required(ErrorMessage ="This filed is required")]
         [DisplayName("Emp. No.")]
         [Column(TypeName = "int")]
-        public int EmployeeNumber { get; set; }
+        public int? EmployeeNumber { get; set; }
 
         [DisplayName("Full Name")]
         [Column(TypeName ="varchar(250)")]
